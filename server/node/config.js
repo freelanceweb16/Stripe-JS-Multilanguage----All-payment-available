@@ -52,10 +52,8 @@ module.exports = {
     apiVersion: '2019-03-14',
     // Use your test keys for development and live keys for real charges in production.
     // For non-card payments like iDEAL, live keys will redirect to real banking sites.
-	// publishableKey: 'pk_test_51IFsLfG6PNSXC5j4ipC3cY97roRaRv01tAzBixEewi921r62IFWoaDpjGMV43yJGCjLHUYfh06OK9l9v6bS5EwHY00ZRbCLufA',
-	publishableKey: 'pk_live_51IFsLfG6PNSXC5j4jQFBH6iuZxoazxGNgTtk7PuNI8K0DESHA5DShDJEd1usUOG7RU48GjrlibtugpU2qnAf62DD00hpYOeYDd',
-    //secretKey: 'sk_test_51IFsLfG6PNSXC5j4ULQNVgxOg7UeWQy1WG4aTYVxFsFDayhOIb2oeRxjfFCZdtvzb1soj2lqEb3d2syddhLLpfAK009Wlg5BuY',
-	secretKey: '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',
+	  publishableKey: 'yourpublishableKey',
+	  secretKey: 'yousecretKey',
     // Setting the webhook secret is good practice in order to verify signatures.
     // After creating a webhook, click to reveal details and find your signing secret.
     webhookSecret: '',
@@ -81,7 +79,7 @@ module.exports = {
     enabled: process.env.NODE_ENV !== 'production',
     port: process.env.PORT || 9000,
     subdomain: process.env.NGROK_SUBDOMAIN,
-    authtoken: '1vaAGK8s1gvp1aRo5NdXCJhMeHt_2vyYSmkj2RNyvTeFWS8HX',
+    authtoken: 'yourtokenauthngrok',
   },
 };
 ;
