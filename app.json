@@ -1,0 +1,36 @@
+{
+  "name": "Stripe Payments",
+  "description":
+    "",
+  "repository": "https://github.com/stripe/stripe-payments-demo",
+  "logo": "https://stripe-payments-demo.appspot.com/images/logo.png",
+  "keywords": [
+    "stripe",
+    "stripe-elements",
+    "stripe-sources",
+    "node",
+    "javascript",
+    "payments",
+    "payment-methods",
+    "payment-request",
+    "apple-pay",
+    "google-pay"
+  ],
+  "env": {
+    "STRIPE_PUBLISHABLE_KEY": {
+      "description":
+        "pk_live_51IFie3Dj2cV91UMYbHF2ZXKIw9NyTcYh9PauI6cEmYYrpIzLXgiIDDhovpi2qSpVDF47z2Tr52AaHQtRH1FPKvEv00VZzcf3xe",
+      "required": true
+    },
+    "STRIPE_SECRET_KEY": {
+      "description":
+        "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",
+      "required": true
+    },
+    "STRIPE_WEBHOOK_SECRET": {
+      "description":
+        "",
+      "required": false
+    }
+  }
+}
